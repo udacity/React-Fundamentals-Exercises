@@ -1,7 +1,8 @@
 import "./App.css";
+import { CardsList } from "./CardsList";
 import logo from "./logo.svg";
 
-// Display a list of movies where each movie contains a list of users that favorited it.
+// Use React and the data below to display a list of users alongside their favorite movies.
 // For detailed instructions, refer to Instructions.md.
 
 const profiles = [
@@ -36,7 +37,6 @@ const profiles = [
     favoriteMovieID: "4",
   },
 ];
-
 const users = {
   1: {
     id: 1,
@@ -92,15 +92,27 @@ const movies = {
     name: "Get Out",
   },
 };
+const usersFavoriteMovie = {}
+profiles.map((profile) => {
+  if (usersFavoriteMovie[profile.favoriteMovieID]) {
+    usersFavoriteMovie[profile.favoriteMovieID].push(profile.userID)
+  } else {
+    usersFavoriteMovie[profile.favoriteMovieID] = [profile.userID]
+  }
+})
+console.log(usersFavoriteMovie);
 
 const App = () => {
   return (
-    <div className="App">
+    <div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1 className="App-title">ReactND - Coding Practice</h1>
       </header>
-      <h2>How Popular is Your Favorite Movie?</h2>
+      <h2>Favorite Movies</h2>
+
+      <CardsList movies={movies} users={users} usersFavoriteMovie={usersFavoriteMovie} />
+
     </div>
   );
 };
