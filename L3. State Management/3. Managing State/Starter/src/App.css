@@ -3,3 +3,19 @@
   flex-direction: column;
   align-items: center;
 }
+
+.btn {
+  color: azure;
+  padding: 2px 5px;
+  width: 50px;
+  text-align: center;
+  background-color: rgb(49, 96, 224);
+  border: 1px black;
+  border-radius: 6px;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(19, 52, 143);
+}
