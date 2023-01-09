@@ -32,3 +32,4 @@ ChatWindow.propTypes = {
 };
 
 export default ChatWindow;
+
