@@ -1,4 +1,4 @@
-import logo from "./logo192.png";
+import logoPath from "./logo192.png";
 import "./App.css";
 
 const App = () => {
@@ -12,8 +12,14 @@ const App = () => {
 
   const aboutReact = (facts) =>
     `Release date: ${facts.releaseDate}. Language: ${facts.releaseDate}. License: ${facts.license}.`;
-
-  return <div className="container"></div>;
+    
+  return ( 
+  <div className="container">
+    <img src={logoPath}></img>
+    <h1>{name}</h1>
+    <p>{aboutReact(facts)}</p>
+  </div>
+  );
 };
 
 export default App;
