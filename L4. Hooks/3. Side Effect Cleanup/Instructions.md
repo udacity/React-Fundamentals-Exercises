@@ -10,9 +10,9 @@ When trying to updating state on an unmounted component, React will raise a warn
 
 Note: If the text is already "green", refresh the page to try again.
 
-4. Open `./src/App.js` and examine how it works (you won't need to modify anything in this file).
-5. Open `./src/ChildComponent.js` and examine how it works (\*see answer below).
-6. Update the logic in the `useEffect` hook in `./src/ChildComponent.js` to include side effect cleanup. That is, even with `setTimeout` delay of 3000 milliseconds, clicking "Toggle" at any time would _not_ cause React to raise the warning.
+4. Open `./src/App.jsx` and examine how it works (you won't need to modify anything in this file).
+5. Open `./src/ChildComponent.jsx` and examine how it works (\*see answer below).
+6. Update the logic in the `useEffect` hook in `./src/ChildComponent.jsx` to include side effect cleanup. That is, even with `setTimeout` delay of 3000 milliseconds, clicking "Toggle" at any time would _not_ cause React to raise the warning.
 
 # Explanation for Step 5 (Above)
 

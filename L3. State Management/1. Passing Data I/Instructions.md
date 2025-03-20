@@ -2,7 +2,7 @@
 
 1. Run `npm install` to install dependencies.
 2. Run `npm start` to start the development server.
-3. Open `./src/App.js`.
+3. Open `./src/App.jsx`.
 4. Use the `profiles`, `users`, and `movies` data to display a list of users alongside their favorite movies.
 
 ## Example

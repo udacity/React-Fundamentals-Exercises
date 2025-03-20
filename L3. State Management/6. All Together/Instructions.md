@@ -20,7 +20,7 @@ Remember that state cannot be modified outside of the component in which it is d
 
 This practice exercise will help you cement your understanding of where to put state, how to update and access state, when to use stateless functional components, and how to use controlled components.
 
-We recommend following the [Thinking in React Guide](https://reactjs.org/docs/thinking-in-react.html when you're building your React applications.
+We recommend following the [Thinking in React Guide](https://reactjs.org/docs/thinking-in-react.html) when you're building your React applications.
 
 # Before You Begin
 

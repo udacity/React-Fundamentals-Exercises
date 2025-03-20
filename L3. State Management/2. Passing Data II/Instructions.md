@@ -4,7 +4,7 @@ Let's do something a little bit more challenging than the previous exercise. Ins
 
 1. Run `npm install` to install dependencies.
 2. Run `npm start` to start the development server.
-3. Open `./src/App.js`.
+3. Open `./src/App.jsx`.
 4. For each movie in the list, there are two options:
 
 - Option 1: If the movie has been favorited, display a list of all of the users who said that this movie was their favorite.

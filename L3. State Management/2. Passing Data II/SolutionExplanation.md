@@ -6,7 +6,7 @@ There are two ways to approach this app. The first is a bottom-up approach and t
 
 ## Bottom-Up Approach
 
-The bottom-up approach involves two steps: putting all of our code into the `App.js` file and, once the app renders what you want it to render, you break that code up into different components. This is a possible approach to the first step of the bottom-up strategy:
+The bottom-up approach involves two steps: putting all of our code into the `App.jsx` file and, once the app renders what you want it to render, you break that code up into different components. This is a possible approach to the first step of the bottom-up strategy:
 
 ```js
 const App = () => {
@@ -123,7 +123,7 @@ The list of users who liked a particular movie can either reside inside of the `
 
 Now, the top-down approach to making this app involves identifying each component first and then starting to code. We recommend practicing this approach because it will help you later in the course, when you learn about state and your apps become more complex.
 
-An intuitive way of breaking an app into components is to draw what you want your resulting app to look like and then to physically draw boxes around each piece of our application. Feel free to take a look at this article to see an example of that: https://brotzky.co/blog/react-thinking-in-components
+An intuitive way of breaking an app into components is to draw what you want your resulting app to look like and then to physically draw boxes around each piece of our application. 
 
 ## How to Know What Should be a Component:
 
