@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
+    "start": "vite build && vite preview --port 3001 --host",
+    "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
