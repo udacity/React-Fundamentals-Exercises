@@ -10,4 +10,4 @@ One of the most useful features of JSX is the ability to embed JavaScript expres
    - The name of the library
    - Some facts about React
      Hint: you'll probably want to create at least three different elements (e.g., an `<img>` element, etc.)!
-5. Visit `http://localhost:3000/` to view your application!
+5. Visit `http://localhost:3001/` to view your application!

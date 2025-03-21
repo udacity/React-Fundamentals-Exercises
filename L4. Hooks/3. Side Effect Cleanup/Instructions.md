@@ -4,7 +4,7 @@ When trying to updating state on an unmounted component, React will raise a warn
 
 1. Run `npm install` to install dependencies.
 2. Run `npm start` to start the development server.
-3. Visit `http://localhost:3000/` and demo the application. Be sure than the console is open (i.e., in Chrome DevTools if using Chrome). The text at the bottom will automatically change from "red" to "green" in 3000 milliseconds. If "Toggle" is clicked before the bottom text changes from "red" to "green", you will see a warning in the console:
+3. Visit `http://localhost:3001/` and demo the application. Be sure than the console is open (i.e., in Chrome DevTools if using Chrome). The text at the bottom will automatically change from "red" to "green" in 3000 milliseconds. If "Toggle" is clicked before the bottom text changes from "red" to "green", you will see a warning in the console:
 
 "Warning: Can’t perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup function."
 
