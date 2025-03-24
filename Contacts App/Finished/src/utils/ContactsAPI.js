@@ -6,19 +6,19 @@ const defaultData = {
       id: "richard",
       name: "Richard Kalehoff",
       handle: "@richardkalehoff",
-      avatarURL: "/richard.jpg",
+      avatarURL: "richard.jpg",
     },
     {
       id: "karen",
       name: "Karen Isgrigg",
       handle: "@karen_isgrigg",
-      avatarURL: "/karen.jpg",
+      avatarURL: "karen.jpg",
     },
     {
       id: "tyler",
       name: "Tyler McGinnis",
       handle: "@tylermcginnis",
-      avatarURL: "/tyler.jpg",
+      avatarURL: "tyler.jpg",
     },
   ],
 };
