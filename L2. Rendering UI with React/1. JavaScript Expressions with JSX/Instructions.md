@@ -4,7 +4,7 @@ One of the most useful features of JSX is the ability to embed JavaScript expres
 
 1. Run `npm install` to install dependencies.
 2. Run `npm start` to start the development server.
-3. Open `./src/App.jsx`.
+3. Open `./src/App.js`.
 4. Within the `div` tag in the return statement, use JSX to embed JavaScript and render:
    - The React logo
    - The name of the library

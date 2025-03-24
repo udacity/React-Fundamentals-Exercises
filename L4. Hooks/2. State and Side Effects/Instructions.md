@@ -4,7 +4,7 @@ In this exercise, you'll implement code to run a function at the time a componen
 
 1. Run `npm install` to install dependencies.
 2. Run `npm start` to start the development server.
-3. Open `./src/App.jsx` to review the provided starter code containing a template with dummy data.
+3. Open `./src/App.js` to review the provided starter code containing a template with dummy data.
 
 # Task
 
